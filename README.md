@@ -1,5 +1,5 @@
 # JSP_Basic
-##create table member(
+```create table member(
     id varchar2(10)not null,
     pass varchar2(10) not null,
     name varchar2(3) not null,
@@ -34,5 +34,5 @@ insert into board (num, title, content, id, postdate, visitcount)
         
 insert into member (id,pass,name) values ('musthave', '1234', '머스트해브');
 
-commit;
+commit; ```
         
