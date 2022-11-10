@@ -1,4 +1,6 @@
 # JSP_Basic
+
+## 테이블 생성해주기
 ```create table member(
     id varchar2(10)not null,
     pass varchar2(10) not null,
