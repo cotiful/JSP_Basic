@@ -37,4 +37,19 @@ insert into board (num, title, content, id, postdate, visitcount)
 insert into member (id,pass,name) values ('musthave', '1234', '머스트해브');
 
 commit; ```
+
+
+### 5장 공부 내용 요약
+```
+1. JDBC 프로그래밍 순서 
++ JDBC 드라이버 로드 
++ 데이터베이스 연결 (JDBConnect)
++ 쿼리문 작성
++ 쿼리문(Statement) 객체 생성
++ 쿼리 실행 (ResultSet)
++ 실행 결과 처리 while(rs.next) -> false or true
++ 연결 해제 
+2. 테이블에 저장된 레코드를 변경하지 않는 SELECT 문은 executeQuery() 메서드 사용
+3. 레코드를 변경하는 INSERT, UPDATE, DELETE문은 executeUpdate()
+```
         
