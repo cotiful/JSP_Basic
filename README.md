@@ -38,6 +38,7 @@ insert into member (id,pass,name) values ('musthave', '1234', '머스트해브')
 
 commit; ```
 
+
 ### 5장 공부 내용 요약
 ```
 1. JDBC 프로그래밍 순서 
@@ -48,8 +49,7 @@ commit; ```
 + 쿼리 실행 (ResultSet)
 + 실행 결과 처리 while(rs.next) -> false or true
 + 연결 해제 
-
 2. 테이블에 저장된 레코드를 변경하지 않는 SELECT 문은 executeQuery() 메서드 사용
-  레코드를 변경하는 INSERT, UPDATE, DELETE문은 executeUpdate()
+3. 레코드를 변경하는 INSERT, UPDATE, DELETE문은 executeUpdate()
 ```
         
